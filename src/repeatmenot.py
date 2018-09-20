@@ -106,7 +106,7 @@ def make_parts_directory():
 def populate_clean_times():
     if len(sys.argv) is not 4:
         print("Invalid arguments.")
-        print("Usage: make_clean_audio.py inputfile.mediatype inputfile.srt decimal_accuracy(ex: 0.5 = 50%)")
+        print("Usage: repeatmenot.py inputfile.mediatype inputfile.srt decimal_accuracy(ex: 0.5 = 50%)")
         exit(1)
     
     global accuracy_decimal
